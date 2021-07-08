@@ -16,7 +16,8 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background: #EDEFF0;
+  background-image: url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+  background-size: contain;
 }
 
 .wrapper {
@@ -65,13 +66,14 @@ body {
 }
 
 #posts {
-  background: white;
   padding: 2em 5%;
   border-radius: .5em;
   .post {
     margin: 1em 0;
-    padding: 1em 0;
-    border-bottom: 1px solid #D1d1d1;
+    padding: 1em 1em;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 10px;
     .title {
       margin: 0;
       a {
@@ -101,6 +103,7 @@ body {
   background: white;
   padding: 2em 5%;
   border-radius: .5em;
+  margin-top: 20px;
   h1 {
     font-size: 2em;
     color: #397CAC;
